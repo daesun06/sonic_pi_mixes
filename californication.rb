@@ -83,7 +83,7 @@ live_loop :californication do
       play_chord [:E3,:A3,:C4], release: 0.15
       sleep 0.15
     end
-#
+    #
     3.times do
       play_chord [:A3,:C4,:F4], release: 0.3
       sleep 0.3
@@ -103,54 +103,54 @@ live_loop :californication do
   end
   with_fx :reverb, room: 0.99, mix: 0.7 do
     use_synth :dark_ambience
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.75
+    play_chord [:G2,:B2,:G4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.5
+    play_chord [:G2,:B2,:G4]
     sleep 0.5
-    play_chord [:A3,:D4,:F4], release 0.75
+    play_chord [:A3,:D4,:F4]
     sleep 0.75
-    play_chord [:E3,:A3,:C4], release 1.75
+    play_chord [:E3,:A3,:C4]
     sleep 1.75
     
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.75
+    play_chord [:G2,:B2,:G4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.5
+    play_chord [:G2,:B2,:G4]
     sleep 0.5
-    play_chord [:A3,:D4,:F4], release 0.75
+    play_chord [:A3,:D4,:F4]
     sleep 0.75
-    play_chord [:A3,:D4,:F4], release 1.75
+    play_chord [:A3,:D4,:F4]
     sleep 1.75
     
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.75
+    play_chord [:G2,:B2,:G4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.5
+    play_chord [:G2,:B2,:G4]
     sleep 0.5
-    play_chord [:A3,:D4,:F4], release 0.75
+    play_chord [:A3,:D4,:F4]
     sleep 0.75
-    play_chord [:E3,:A3,:C4], release 1.75
+    play_chord [:E3,:A3,:C4]
     sleep 1.75
     
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:C3,:E3,:C4], release 0.75
+    play_chord [:C3,:E3,:C4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.75
+    play_chord [:G2,:B2,:G4]
     sleep 0.75
-    play_chord [:G2,:B2,:G4], release 0.5
+    play_chord [:G2,:B2,:G4]
     sleep 0.5
-    play_chord [:A3,:D4,:F4], release 0.75
+    play_chord [:A3,:D4,:F4]
     sleep 0.75
     
     play :E3
